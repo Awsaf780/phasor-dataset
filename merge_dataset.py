@@ -21,3 +21,4 @@ if not os.path.exists(merged_folder):
     os.makedirs(merged_folder)
 
 phasor_data.to_csv('{}/full_dataset.csv'.format(merged_folder), index=False)
+print("Dataset Merge Complete")
