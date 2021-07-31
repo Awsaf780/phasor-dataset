@@ -15,7 +15,7 @@ for file in all_csv:
 
 phasor_data = pd.concat(all_df)
 
-merged_folder = 'Merged Dataset'
+merged_folder = 'MergedDataset'
 
 if not os.path.exists(merged_folder):
     os.makedirs(merged_folder)
